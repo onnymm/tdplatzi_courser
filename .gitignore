@@ -1,1 +1,5 @@
+__pycache__/
 venv/
+token.txt
+project.txt
+content.py

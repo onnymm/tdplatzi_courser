@@ -15,11 +15,11 @@ def classes_classifier(lines):
         lessons = []
         for j in lines:
             if j.startswith("*"):
-                lessons.append([f"* ◽{j[1:]}", 4])
+                lessons.append([f"* ◽{j[1:]}", 1])
             elif j.lower() == "quiz":
-                lessons.append([j, 2])
+                lessons.append([j, 3])
             else:
-                lessons.append([f"{j} `{i}`", 4])
+                lessons.append([f"{j} `{i}`", 1])
         content[i] = lessons
     return content
 
@@ -29,6 +29,18 @@ def data_organizer():
     structure["title"] = data[0]
     structure["description"] = data[1]
     structure["content"] = classes_classifier(data[2:])
-    print(structure)
+    return structure
 
-data_organizer()
+def get_token():
+    token = ""
+    with open("token.txt", "r+") as file:
+        for i in file:
+            token = i
+    return token
+
+def get_project():
+    project = ""
+    with open("project.txt", "r+") as file:
+        for i in file:
+            project = i
+    return project
