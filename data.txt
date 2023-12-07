@@ -1,0 +1,18 @@
+Platzi Space Program: Diseño y Fabricación de Nuestro Satélite
+Únete al Platzi Space Program y descubre cómo un emprendimiento está transformando la forma en la que se fabrican, lanzan y conectan satélites a nivel global. Conoce los aspectos técnicos y administrativos necesarios para la creación del satélite de Platzi
+*Qué se necesita para lanzar un satélite
+Participando en el NewSpace: Conoce al CEO de FOSSA
+Diferencia entre espacio tradicional y New Space
+*Aspectos técnicos del satélite
+Sistemas que integran el satélite
+Manejando las mecánicas y temperaturas
+Fabricación del satélite: aviónica
+Telecomunicación con el satélite
+*Navegación del satélite
+Guiado, navegación y control
+Operación del satélite en el espacio
+Software integrado en un satélite
+*Preparando el lanzamiento
+Los retos de vender satélites: marketing y ventas
+Aspectos legales
+Antenas para comunicarse con el satélite
